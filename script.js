@@ -1,5 +1,5 @@
 //your JS code here. If require
-const button=document.getElementById("enterbtn");
+const button=document.getElementById("enterBtn");
 const first=document.getElementById("status");
 let flag=0;
 button.addEventListener("click" ,()=>{
