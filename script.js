@@ -5,11 +5,11 @@ let flag=0;
 button.addEventListener("click" ,()=>{
 	if(flag==0)
 	{
-	first.remove();
+	first.innerText="";
 	let value=document.createElement("h1");
 	value.innerText="Entered Metaverse";
 		value.id="status"
-	button.parentNode.insertBefore(value,button);
+first.appendChild(value);
 flag=1;}
 	else{
 		return;
