@@ -8,6 +8,7 @@ button.addEventListener("click" ,()=>{
 	first.remove();
 	let value=document.createElement("h1");
 	value.innerText="Entered Metaverse";
+		value.id="status"
 	button.parentNode.insertBefore(value,button);
 flag=1;}
 	else{
